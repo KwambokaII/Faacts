@@ -1,0 +1,99 @@
+* {
+    margin: 40;
+    padding: 16;
+    box-sizing: border-box;
+}
+.header {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+   display: flex;
+   align-items: center;
+}
+body {
+    background-color: #292524;
+    padding: 20px;
+}
+.container {
+max-width: 1500px;
+margin: 0 auto;
+}
+.fact_form {
+    background-color: #57534e;
+    margin-bottom: 40px;
+}
+main {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 48px;
+
+}
+h1 {
+    font-size: 42;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "coiny";
+    color: #fafaf9;
+}
+.fact {
+    font-size: 24;
+    font-family: "sono", sans-serif;
+    color: #fafaf9;
+    background-color: #57534e;
+    padding: 16px 24px;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+    display: flex;
+    
+    align-items: center;
+    gap: 25px;
+    
+}
+.category {
+    margin: 10px;
+}
+.tag {
+    font-size: 14;
+    text-transform: uppercase;
+    font-family: "coiny";
+    display: block;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+}
+.vote-buttons{
+    margin-left: auto;
+}
+ul {
+    list-style: none;
+}
+.butn {
+    border-radius: 100px;
+    border: none;
+    text-transform: uppercase;
+    padding: 16px,0, 12px;
+    font-family: coiny, sans-serif;
+    background-image: linear-gradient(135deg, blue, red, #AAFF00, orange);
+    background-color: inherit;
+    transition: 0.3s;  
+    font  
+}
+.butn:hover {
+    transform: scale(110%);
+}
+.butn-large {
+font-size: 20px;
+padding: 20px 30px 16px;
+}
+ .butn-all {
+    margin-bottom: 20px;
+    width: 100%;
+ }
+ .butn-category {
+    width: 100%;
+    background-image: none;
+ }
